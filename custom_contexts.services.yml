@@ -1,0 +1,28 @@
+services:
+  node.node_random_context:
+    class: Drupal\custom_contexts\ContextProvider\NodeRandomContext
+    arguments: ['@database', '@entity_type.manager']
+    tags:
+      - { name: 'context_provider' }
+
+  custom_context.ip_address_context:
+    class: Drupal\custom_contexts\ContextProvider\IpAddressContext
+    arguments: ['@request_stack']
+    tags:
+      - { name: 'context_provider' }
+
+  custom_context.multiple_string_context:
+    class: Drupal\custom_contexts\ContextProvider\MultipleStringContext
+    tags:
+      - { name: 'context_provider' }
+
+  custom_context.random_ip_address_context:
+    class: Drupal\custom_contexts\ContextProvider\RandomIpAddressContext
+    tags:
+      - { name: 'context_provider' }
+
+  custom_context.referenced_node_context:
+    class: Drupal\custom_contexts\ContextProvider\ReferencedNodeContext
+    arguments: ['@current_route_match']
+    tags:
+      - { name: 'context_provider' }

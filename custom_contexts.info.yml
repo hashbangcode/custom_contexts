@@ -1,0 +1,4 @@
+name: Custom Contexts
+type: module
+description: 'Custom contexts'
+core_version_requirement: ^9 || ^10
