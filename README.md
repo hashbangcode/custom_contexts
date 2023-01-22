@@ -1,7 +1,8 @@
-# Custom Context Providers Example Module
+# Custom Context Providers Example Drupal Module
 
-This is an example module on how to create your own custom context
-providers and how to use them in your projects.
+This is an example Drupal module on how to create your own custom context
+providers and how to use them in your projects. This is suitable for
+Drupal 9 and 10.
 
 The following context providers are available:
 - IP Address Context - Looks up the user's IP address.
