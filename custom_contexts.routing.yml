@@ -1,0 +1,7 @@
+custom_contexts_block_page:
+  path: '/block-page'
+  defaults:
+    _controller: '\Drupal\custom_contexts\Controller\TestController::blockPage'
+  requirements:
+    # Deliberately setting the access rights to be open as this is an example.
+    _access: 'TRUE'

@@ -29,7 +29,6 @@ class UserContextBlock extends BlockBase {
       $build['user'] = [
         '#markup' => $this->t('Username:') . $user->getAccountName(),
       ];
-
     }
     return $build;
   }
