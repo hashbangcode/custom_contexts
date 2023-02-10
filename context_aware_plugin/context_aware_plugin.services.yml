@@ -1,0 +1,4 @@
+services:
+  plugin.manager.context_aware_plugin.context_thing:
+    class: Drupal\context_aware_plugin\Plugin\ContextThingManager
+    parent: default_plugin_manager

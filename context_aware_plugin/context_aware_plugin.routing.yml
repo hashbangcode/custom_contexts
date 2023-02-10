@@ -1,0 +1,7 @@
+custom_contexts_context_thing_page:
+  path: '/context-thing-page'
+  defaults:
+    _controller: '\Drupal\context_aware_plugin\Controller\ContextThingController::testContextThingPage'
+  requirements:
+    # Deliberately setting the access rights to be open as this is an example.
+    _access: 'TRUE'

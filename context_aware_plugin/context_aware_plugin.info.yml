@@ -1,0 +1,7 @@
+name: Context Aware Plugin
+type: module
+description: 'Custom contexts'
+core_version_requirement: ^9 || ^10
+
+dependencies:
+  - custom_contexts:custom_contexts
