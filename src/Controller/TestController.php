@@ -15,7 +15,7 @@ use Drupal\Core\Plugin\Context\ContextHandlerInterface;
 class TestController extends ControllerBase {
 
   /**
-   * The plugin manager.
+   * The block plugin manager.
    *
    * @var \Drupal\Component\Plugin\PluginManagerInterface
    */
