@@ -5,7 +5,6 @@ namespace Drupal\context_aware_plugin\Plugin\ContextThing;
 use Drupal\Core\Plugin\ContextAwarePluginAssignmentTrait;
 use Drupal\Core\Plugin\ContextAwarePluginInterface;
 use Drupal\Core\Plugin\ContextAwarePluginTrait;
-use Drupal\context_aware_plugin\Plugin\ContextThingInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\Core\Plugin\PluginBase;
 

@@ -6,6 +6,7 @@ use Drupal\Core\Cache\CacheBackendInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\Plugin\DefaultPluginManager;
 use Drupal\Component\Plugin\FallbackPluginManagerInterface;
+use Drupal\context_aware_plugin\Plugin\ContextThing\ContextThingInterface;
 
 /**
  * A plugin manager class for context thing plugins.
@@ -30,7 +31,7 @@ class ContextThingManager extends DefaultPluginManager implements FallbackPlugin
       'Plugin/ContextThing',
       $namespaces,
       $module_handler,
-      'Drupal\context_aware_plugin\Plugin\ContextThingInterface',
+      'Drupal\context_aware_plugin\Plugin\ContextThing\ContextThingInterface',
       'Drupal\context_aware_plugin\Annotation\ContextThing'
     );
     $this->alterInfo('context_thing_info');

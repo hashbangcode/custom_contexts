@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\context_aware_plugin\Plugin;
+namespace Drupal\context_aware_plugin\Plugin\ContextThing;
 
 use Drupal\Component\Plugin\PluginInspectionInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
