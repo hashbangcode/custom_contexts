@@ -77,4 +77,4 @@ created at /context-thing-page that will render the output from the plugin.
 For more information on this please see the following articles:
 - [Drupal 10: Using Context Definitions To Create Context Aware Plugins](https://www.hashbangcode.com/article/drupal-10-using-context-definitions-create-context-aware-plugins)
 - [Drupal 10: Creating Custom Context Providers](https://www.hashbangcode.com/article/drupal-10-creating-custom-context-providers)
-- [Drupal 10: Programatically Injecting Context Into Blocks](https://www.hashbangcode.com/article/drupal-10-programmatically-injecting-context-blocks)
+- [Drupal 10: Programmatically Injecting Context Into Blocks](https://www.hashbangcode.com/article/drupal-10-programmatically-injecting-context-blocks)
